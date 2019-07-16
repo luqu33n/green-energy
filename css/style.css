@@ -1,0 +1,153 @@
+/*COLORS USED
+#FFFFFF;
+#d5f2f8;
+#67a7e7;
+#f6f596;
+#d4e36c;
+#81b709;
+#40471c;
+*/
+
+body {
+    background-color: #d5f2f8;    
+}
+
+header {
+    text-align: center;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 0 7% 0;
+    color: #f6f596;
+}
+
+h1, h2, a, button {
+    font-family: 'IM Fell Great Primer SC', serif;
+    margin: 0;
+}
+
+h2 {
+    padding: 20px;
+}
+
+button {
+    background-color: #d4e36c; 
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.active, button:hover, button:focus {
+    background-color: #81b709;
+    color: #f6f596;
+}
+
+ul {
+    text-align: center;
+    background-color: #67a7e7;
+    padding: 15px;
+    margin-top: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d4e36c; 
+}
+
+footer a:hover {
+    color: #67a7e7;
+}
+
+.main-content {
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    margin: 30px 0;
+    box-shadow: 0;
+}
+
+.link, .link a {
+    color: #67a7e7;
+    padding: 0;
+    margin: 0 15px 50px 15px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.link a:hover {
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    text-align: justify;
+    padding: 0 2rem;
+}
+
+footer {
+    background-color: #d4e36c;
+    padding: 50px;
+    text-align: center;
+    font-size: 3em;
+}
+
+@media (min-width: 30rem) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    h2 {
+        font-size: 2em;
+        padding: 40px;
+    }
+    
+    ul li {
+        display: inline;
+        font-size: 2em;
+        padding: 20px;
+    }
+    
+    button {
+        margin: 10px;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    
+    img {
+        box-shadow: 5px 10px 10px #40471c; 
+        width: 25%;
+        float: left;
+        margin: 20px 30px 30px 2rem;
+    }
+    
+    .content {
+        padding: 2rem;
+    }
+    
+    .content p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    
+    .link, .link a {
+        font-size: 30px;
+        clear: both;
+    }
+    
+    footer {
+        text-align: right;
+        padding: 50px 80px;
+    }
+}
